@@ -1,5 +1,7 @@
 # bap-2
 
+## Versión del código utilizando vue 2 + nuxt + vuetify
+
 ## Build Setup
 
 ```bash
