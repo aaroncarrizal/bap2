@@ -20,6 +20,9 @@ export default {
         try {
             const taskData = await fetchTask(id);
             this.task = taskData;
+            if(!this.task){
+                this.$router.push("/");
+            }
         } catch (err) {
             this.$router.push("/");
         }
